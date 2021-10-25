@@ -29,9 +29,9 @@ if maximum > 0:
         # Output.
         print("The synonyms are-:\n")
 
-        for ouput in response.json():
+        for output in response.json():
 
-            print(f"\t{ouput['word']}")
+            print(f"\t{output['word']}")
 
     # If no synonyms are found for the word/phrase that the user entered, this message is printed out instead of the program terminating.
     else:
